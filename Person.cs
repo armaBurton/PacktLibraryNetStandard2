@@ -21,4 +21,16 @@ public class Person : object{
     HomePlanet = homePlanet;
     Instantiated = DateTime.Now;
   }
+
+  public void WriteToConsole(){
+    WriteLine($"{Name} was born on a {DateOfBirth:dddd}.");
+  }
+
+  public string GetOrigin(){
+    return $"{Name} was born on {HomePlanet}.";
+  }
+
+  public (string, int) GetFruit(){
+    return ("Apples", 5);
+  }
 }
