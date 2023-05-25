@@ -33,4 +33,8 @@ public class Person : object{
   public (string, int) GetFruit(){
     return ("Apples", 5);
   }
+
+  public (string Name, int Number) GetNamedFruit(){
+    return (Name: "Apple", Number: 5);
+  }
 }

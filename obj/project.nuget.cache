@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "FrbM4hWlytd5K/XSTS12rqnQAJDJsWor4TIQ12SEPVx1yFtnxTifKNGs9oP6XTcW5D9CrD4xwi0wCeVExepNxw==",
+  "dgSpecHash": "FtMrICRHKZCS3nleseUMK5aY1wJl50ImaJ98yIICWW+9FicgARGIxZ+tp2Od51dV1o8jk/TLB7ZMWRUYiJpB+Q==",
   "success": true,
-  "projectFilePath": "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+  "projectFilePath": "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\arman\\.nuget\\packages\\microsoft.netcore.platforms\\1.1.0\\microsoft.netcore.platforms.1.1.0.nupkg.sha512",
     "C:\\Users\\arman\\.nuget\\packages\\netstandard.library\\2.0.3\\netstandard.library.2.0.3.nupkg.sha512"

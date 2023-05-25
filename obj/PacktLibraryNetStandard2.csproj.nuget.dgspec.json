@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {}
+    "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {}
   },
   "projects": {
-    "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
+    "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+        "projectUniqueName": "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
         "projectName": "PacktLibraryNetStandard2",
-        "projectPath": "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
+        "projectPath": "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\PacktLibraryNetStandard2.csproj",
         "packagesPath": "C:\\Users\\arman\\.nuget\\packages\\",
-        "outputPath": "d:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\obj\\",
+        "outputPath": "D:\\001 work\\projects\\c#\\cs11dotnet7\\Chapter05\\classlib\\PacktLibraryNetStandard2\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\arman\\AppData\\Roaming\\NuGet\\NuGet.Config",
