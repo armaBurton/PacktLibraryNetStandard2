@@ -18,23 +18,21 @@ public partial class Person : object {
 
   public string? FavoriteIceCream { get; set; }
 
-  private string? favoritePrimaryColor {
+  private string? favoritePrimaryColor;
+
+  public string? FavoritePrimaryColor {
     get {
       return favoritePrimaryColor;
     }
     set{
-      switch (value?.ToLower()){
-        case "red":
-        case "yellow":
-        case "blue":
-          favoritePrimaryColor = value;
-          break;
-        default:
-          throw new ArgumentException(
-            $"{value} is not a primary color. " +
-            "Choose from: red, yellow, blue" 
-          );
-      }
+      favoritePrimaryColor = (value?.ToLower()) switch
+      {
+        "red" or "yellow" or "blue" => value,
+        _ => throw new ArgumentException(
+                    $"{value} is not a primary color. " +
+                    "Choose from: red, yellow, blue"
+                  ),
+      };
     }
   }
 }
