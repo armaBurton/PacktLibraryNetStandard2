@@ -7,4 +7,5 @@ public class Person : object{
   public WondersOfTheAncientWorld FavoriteAncientWonder;
   public WondersOfTheAncientWorld BucketList;
   public List<Person> Children = new();
+  public const string Species = "Homo Sapiens";
 }
