@@ -15,4 +15,26 @@ public partial class Person : object {
 
   public string Greeting => $"{Name} says \"Hello!\"";
   public int Age => DateTime.Today.Year - DateOfBirth.Year;
+
+  public string? FavoriteIceCream { get; set; }
+
+  private string? favoritePrimaryColor {
+    get {
+      return favoritePrimaryColor;
+    }
+    set{
+      switch (value?.ToLower()){
+        case "red":
+        case "yellow":
+        case "blue":
+          favoritePrimaryColor = value;
+          break;
+        default:
+          throw new ArgumentException(
+            $"{value} is not a primary color. " +
+            "Choose from: red, yellow, blue" 
+          );
+      }
+    }
+  }
 }
