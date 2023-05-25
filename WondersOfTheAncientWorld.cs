@@ -6,5 +6,6 @@ public enum WondersOfTheAncientWorld{
   StatueOfZeusAtOlympia,
   TempleOfArtemisAtEphesus,
   MausoleumAtHalicarnassus,
-  ColossusOfRhodes
+  ColossusOfRhodes,
+  LightHouseOfAlexandria
 }
