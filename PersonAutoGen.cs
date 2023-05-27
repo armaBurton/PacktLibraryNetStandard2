@@ -9,16 +9,6 @@ public partial class Person : object {
   private Person? spouse = null;
   public Person? Spouse => spouse;
 
-  public static void Marry(Person p1, Person p2){
-    p1.Marry(p2);
-  }
-
-  public void Marry(Person partner){
-    if (married)return;
-    spouse = partner;
-    married = true;
-    partner.Marry(this);
-  }
 
   public string Origin{
     get{
@@ -52,6 +42,18 @@ public partial class Person : object {
       };
     }
   }
+
+  public static void Marry(Person p1, Person p2){
+    p1.Marry(p2);
+  }
+
+  public void Marry(Person partner){
+    if (married)return;
+    spouse = partner;
+    married = true;
+    partner.Marry(this);
+  }
+
 
   public Person this[int index]{
     get{
@@ -92,4 +94,12 @@ public partial class Person : object {
     return Procreate(this, partner);
   }
 
+  public static bool operator +(Person p1, Person p2){
+    Marry(p1, p2);
+    return p1.Married && p2.Married;
+  }
+
+  public static Person operator *(Person p1, Person p2){
+    return Procreate(p1, p2);
+  }
 }
