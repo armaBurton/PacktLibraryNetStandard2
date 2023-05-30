@@ -108,12 +108,12 @@ public partial class Person : object {
       throw new ArgumentException(
         $"{nameof(number)} cannot be less than zero."
       );
-      return localFactorial(number);
-    
-      int localFactorial(int localNumber){
-        if (localNumber == 0 ) return 1;
-        return localNumber * localFactorial(localNumber - 1);
-      }
+    }
+    return localFactorial(number);
+  
+    int localFactorial(int localNumber){
+      if (localNumber == 0 ) return 1;
+      return localNumber * localFactorial(localNumber - 1);
     }
   }
 }
