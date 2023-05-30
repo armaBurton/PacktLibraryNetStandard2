@@ -1,7 +1,7 @@
 namespace Packt.Shared;
 
 public class Passenger{
-  public string? Name { get; set; };
+  public string? Name { get; set; }
 }
 
 public class BusinessClassPassenger : Passenger{
